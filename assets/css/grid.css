@@ -1,0 +1,19 @@
+#wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+}
+.grid-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.grid-header__item {
+    display: flex;
+    flex-direction: column;
+}
