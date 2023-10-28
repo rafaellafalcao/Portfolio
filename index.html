@@ -11,34 +11,34 @@
 </head>
 <body>
     <div id ="wrap">
-        <div class="grid-header">
+    <div class="grid-header">
             <section class="portfolio-image">
                 <div class="portfolio-image_center"></div>
             </section>
-        <div class="grid-header__item">
-            <h1 class="portfolio-name">Rafaella Falcão</h1>
-            <small class="portfolio-role">Software Developer</small>
-            <ul class="portfolio-contacts">
-                <li><img src="./assets/imagens/github.svg" alt="GitHub"></li>
+    <div class="grid-header__item">
+        <h1 class="portfolio-name js-portfolio-name"></h1>
+        <small class="portfolio-role js-portfolio-role">Software Developer</small>
+        <ul class="portfolio-contacts js-portfolio-contacts">
+               <!-- <li><img src="./assets/imagens/github.svg" alt="GitHub"></li>
                 <li><img src="./assets/imagens/email.svg" alt="E-mail"></li>
-                <li><img src="./assets/imagens/linkedin.svg" alt="Linkedin"></li>
-         </ul>
-        </div>
-        </div>
-        <div class="grid-resume">
-            <h2>Sobre Mim</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptates 
-                odit animi laborum? Quidem, sit assumenda! Temporibus, adipisci est! 
-                Praesentium tenetur nobis illo, voluptate neque eum ipsam quas doloribus voluptatibus?
-            </p>
-        </div>
-        <div class="grid-btns">
-            <div class="grid-row">
-                <button class="btn primary">Meu Currículo</button>
-                <a class="btn" href="">Fale Comigo</a>
-            </div>
-                <a class="btn" href="">Meus Projetos</a>
-        </div>
-        </div>
+                <li><img src="./assets/imagens/linkedin.svg" alt="Linkedin"></li> -->
+        </ul>
+    </div>
+    </div>
+    <div class="grid-resume">
+        <h2>Sobre Mim</h2>
+        <p class="js-resume-text"></p>
+    </div>
+    <div class="grid-btns">
+        <div class="grid-row">
+            <button class="btn primary" onclick="test('Rafaella')">Meu Currículo</button>
+            <a class="btn" href="">Fale Comigo</a>
+    </div>
+            <button class="btn js-btn-projects">Meus Projetos</button>
+    </div>
+    </div>
+        <section class="modal js-modal"> <button class="js-modal-close">X</button></section>
+        <script type="module" src="./assets/javascript/app.js"></script>
+        <script type="module" src="./data/data.js"></script>
 </body>
 </html>

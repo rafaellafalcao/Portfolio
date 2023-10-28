@@ -91,3 +91,18 @@ p {
     background: var(--border);
     color: var(--img-bg);
 }
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background: white;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.js-modal-close {
+    float: right;
+}
