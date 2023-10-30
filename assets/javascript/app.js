@@ -6,6 +6,7 @@ let portfolioRole = document.querySelector(".js-portfolio-role")
 let resumeText = document.querySelector(".js-resume-text")
 let portfolioContacts = document.querySelector(".js-portfolio-contacts")
 let btnProjects = document.querySelector(".js-btn-projects")
+let btnModalClose= document.querySelector(".js-modal-close")
 
 portfolioName.innerText = username
 portfolioRole.innerText = role
